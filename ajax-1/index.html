@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <title>Get random users</title>
 </head>
+
 <body>
-   <button>Show users</button> 
+    <div class="main">
+        <form class="generator">
+            <label class="generator__input-name">Select gender:
+                <select class="generator__select" name="users-gender">
+                    <option value="both">Both</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select></label>
+            <label class="generator__input-name">Number of people:
+                <input type="number" value="10" class="generator__input" name="users-number">
+                </select></label>
+            <input type="submit" class="button" value="Show users">
+        </form>
+        <div class="results">
+
+        </div>
+
+    </div>
 </body>
 <script src="main.js"></script>
+
 </html>
