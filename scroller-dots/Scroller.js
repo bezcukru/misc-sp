@@ -11,10 +11,6 @@ class Scroller {
 
         this.isThrottled = false;
 
-        this.listenScroll = this.listenScroll.bind(this);
-        this.scroll = this.scroll.bind(this);
-        this.scrollToCurrentSection = this.scrollToCurrentSection.bind(this);
-
         this.drawNavigation();
 
     }
@@ -72,7 +68,7 @@ class Scroller {
         })
     }
 
-    drawNavigation = () => {
+    drawNavigation() {
         this.navigationContainer = document.createElement('aside');
         this.navigationContainer.setAttribute('class', 'scroller__nav');
         const list = document.createElement('ul');
@@ -93,7 +89,7 @@ class Scroller {
         this.selectActiveNavItem();
     }
 
-    selectActiveNavItem = () => {
+    selectActiveNavItem() {
         if (this.navigationContainer) {
         const navigationItems = this.navigationContainer.querySelectorAll('li');
 
