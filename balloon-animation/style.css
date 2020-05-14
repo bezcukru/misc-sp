@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: cornflowerblue;
+    /* background-color: ; */
+    background-image: linear-gradient(cornflowerblue, rgb(189, 167, 207));
 }
 
 .balloon-animation {
@@ -25,7 +26,7 @@ body {
 }
 
 .cloud:nth-child(1) {
-    left: 24%;
+    left: 44%;
     top: 30%;
 }
 
@@ -44,6 +45,7 @@ body {
 .cloud:nth-child(4) {
     left: 60%;
     top: 15%;
+    z-index: 2;
 }
 
 .cloud:nth-child(5) {
