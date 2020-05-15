@@ -10,3 +10,8 @@ https://bezcukru.github.io/misc-sp/ajax-1/
 - touch screen ready
 
 https://bezcukru.github.io/misc-sp/scroller-dots/
+
+3. Hot air and balloon animated background
+- clouds move with the cursor at various speed
+
+https://bezcukru.github.io/misc-sp/balloon-animation/
